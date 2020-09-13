@@ -2917,8 +2917,7 @@
     "industries": ["Metalwork Industry M"],
     "input": {
       "Steel": 343,
-      "Basic Pipe": 125,
-      "Basic Burner": 125
+      "Basic Pipe": 125
     }
   },
   {
@@ -3538,8 +3537,7 @@
     "industries": ["Metalwork Industry M"],
     "input": {
       "Steel": 343,
-      "Basic Connector": 125,
-      "Basic Magnet": 125
+      "Basic Connector": 125
     }
   },
   {
@@ -3554,8 +3552,7 @@
     "industries": ["Metalwork Industry M"],
     "input": {
       "Steel": 2401,
-      "Basic Connector": 625,
-      "Basic Magnet": 625
+      "Basic Connector": 625
     }
   },{
     "name": "Uncommon Ionic Chamber XS",
