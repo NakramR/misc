@@ -240,6 +240,18 @@
     "input": {}
   },
   {
+    "name": "Biological Matter",
+    "tier": 1,
+    "type": "Pure",
+    "mass": 1,
+    "volume": 1,
+    "outputQuantity": 75,
+    "time": 150,
+    "byproducts": {},
+    "industries": ["Nanopack","Recycler M"],
+    "input": {'Carbon Pure':100, 'Oxygen Pure': 50, 'Hydrogen Pure':50}
+  },
+  {
     "name": "Oxygen Pure",
     "tier": 1,
     "type": "Pure",
@@ -3552,7 +3564,8 @@
     "industries": ["Metalwork Industry M"],
     "input": {
       "Steel": 2401,
-      "Basic Connector": 625
+      "Basic Connector": 625,
+      "Basic Magnet": 625
     }
   },{
     "name": "Uncommon Ionic Chamber XS",
@@ -5885,7 +5898,7 @@
     "input": {
       "Basic Pipe": 36,
       "Basic Burner": 25,
-      "Basic Power Converter M": 1,
+      "Basic Power Transformer M": 1,
       "Basic Reinforced Frame M": 1
     }
   },
@@ -7100,7 +7113,7 @@
       "Uncommon Component": 108,
       "Advanced Component": 108,
       "Rare Power System": 125,
-      "Rare Power Converter L": 1,
+      "Rare Power Transformer L": 1,
       "Rare Anti-Gravity Core": 64,
       "Rare Reinforced Frame L": 1
     }
@@ -7119,7 +7132,7 @@
       "Uncommon Component": 648,
       "Advanced Component": 648,
       "Rare Power System": 625,
-      "Rare Power Converter XL": 1,
+      "Rare Power Transformer XL": 1,
       "Rare Anti-Gravity Core": 256,
       "Rare Reinforced Frame XL": 1
     }
@@ -7138,7 +7151,7 @@
       "Uncommon Component": 2592,
       "Advanced Component": 2592,
       "Rare Power System": 2500,
-      "Rare Power Converter XL": 4,
+      "Rare Power Transformer XL": 4,
       "Rare Anti-Gravity Core": 1024,
       "Rare Reinforced Frame XL": 4
     }
@@ -14397,7 +14410,7 @@
     "input": {
       "Uncommon Component": 216,
       "Advanced Hydraulics": 125,
-      "Advanced Magnetic Rail": 1,
+      "Advanced Magnetic Rail L": 1,
       "Advanced Anti-Matter Core Unit": 64,
       "Advanced Reinforced Frame L": 1
     }
