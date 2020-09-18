@@ -249,7 +249,11 @@
     "time": 150,
     "byproducts": {},
     "industries": ["Nanopack","Recycler M"],
-    "input": {"Carbon Pure":100, "Oxygen Pure": 50, "Hydrogen Pure":50}
+    "input": {
+		"Carbon Pure":100,
+		"Oxygen Pure": 50,
+		"Hydrogen Pure":50
+	}
   },
   {
     "name": "Oxygen Pure",
