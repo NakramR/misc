@@ -250,13 +250,13 @@
     "byproducts": {},
     "industries": ["Nanopack","Recycler M"],
     "input": {
-		"Carbon Pure":100,
-		"Oxygen Pure": 50,
-		"Hydrogen Pure":50
+		"Pure Carbon":100,
+		"Pure Oxygen": 50,
+		"Pure Hydrogen":50
 	}
   },
   {
-    "name": "Oxygen Pure",
+    "name": "Pure Oxygen",
     "tier": 1,
     "type": "Pure",
     "mass": 1,
@@ -268,7 +268,7 @@
     "input": {}
   },
   {
-    "name": "Hydrogen Pure",
+    "name": "Pure Hydrogen",
     "tier": 1,
     "type": "Pure",
     "mass": 0.07,
@@ -280,203 +280,203 @@
     "input": {}
   },
   {
-    "name": "Aluminium Pure",
+    "name": "Pure Aluminium",
     "tier": 1,
     "type": "Pure",
     "mass": 2.7,
     "volume": 1,
     "outputQuantity": 45,
     "time": 25,
-    "byproducts": {"Hydrogen Pure":15},
+    "byproducts": {"Pure Hydrogen":15},
     "industries": ["Nanopack","Refiner M"],
     "input": {
       "Bauxite": 65
     }
   },
   {
-    "name": "Carbon Pure",
+    "name": "Pure Carbon",
     "tier": 1,
     "type": "Pure",
     "mass": 2.27,
     "volume": 1,
     "outputQuantity": 45,
     "time": 25,
-    "byproducts": {"Oxygen Pure":7.5,"Hydrogen Pure":7.5},
+    "byproducts": {"Pure Oxygen":7.5,"Pure Hydrogen":7.5},
     "industries": ["Nanopack","Refiner M"],
     "input": {
       "Coal": 65
     }
   },
   {
-    "name": "Silicon Pure",
+    "name": "Pure Silicon",
     "tier": 1,
     "type": "Pure",
     "mass": 2.33,
     "volume": 1,
     "outputQuantity": 45,
     "time": 25,
-    "byproducts": {"Oxygen Pure":15},
+    "byproducts": {"Pure Oxygen":15},
     "industries": ["Nanopack","Refiner M"],
     "input": {
       "Quartz": 65
     }
   },
   {
-    "name": "Iron Pure",
+    "name": "Pure Iron",
     "tier": 1,
     "type": "Pure",
     "mass": 7.85,
     "volume": 1,
     "outputQuantity": 45,
     "time": 25,
-    "byproducts": {"Oxygen Pure":15},
+    "byproducts": {"Pure Oxygen":15},
     "industries": ["Nanopack","Refiner M"],
     "input": {
       "Hematite": 65
     }
   },
   {
-    "name": "Calcium Pure",
+    "name": "Pure Calcium",
     "tier": 2,
     "type": "Pure",
     "mass": 1.55,
     "volume": 1,
     "outputQuantity": 45,
     "time": 120,
-    "byproducts": {"Oxygen Pure":7.5, "Carbon Pure":7.5},
+    "byproducts": {"Pure Oxygen":7.5, "Pure Carbon":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Limestone": 65
     }
   },
   {
-    "name": "Chromium Pure",
+    "name": "Pure Chromium",
     "tier": 2,
     "type": "Pure",
     "mass": 7.19,
     "volume": 1,
     "outputQuantity": 45,
     "time": 120,
-    "byproducts": {"Oxygen Pure":7.5,"Iron Pure":7.5},
+    "byproducts": {"Pure Oxygen":7.5,"Pure Iron":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Chromite": 65
     }
   },
   {
-    "name": "Copper Pure",
+    "name": "Pure Copper",
     "tier": 2,
     "type": "Pure",
     "mass": 8.96,
     "volume": 1,
     "outputQuantity": 45,
     "time": 120,
-    "byproducts": {"Hydrogen Pure":7.5,"Carbon Pure":7.5},
+    "byproducts": {"Pure Hydrogen":7.5,"Pure Carbon":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Malachite": 65
     }
   },
   {
-    "name": "Sodium Pure",
+    "name": "Pure Sodium",
     "tier": 2,
     "type": "Pure",
     "mass": 0.97,
     "volume": 1,
     "outputQuantity": 45,
     "time": 120,
-    "byproducts": {"Hydrogen Pure":7.5,"Carbon Pure":7.5},
+    "byproducts": {"Pure Hydrogen":7.5,"Pure Carbon":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Natron": 65
     }
   },
   {
-    "name": "Lithium Pure",
+    "name": "Pure Lithium",
     "tier": 3,
     "type": "Pure",
     "mass": 0.53,
     "volume": 1,
     "outputQuantity": 45,
     "time": 600,
-    "byproducts": {"Silicon Pure":7.5,"Aluminium Pure":7.5},
+    "byproducts": {"Pure Silicon":7.5,"Pure Aluminium":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Petalite": 65
     }
   },
   {
-    "name": "Nickel Pure",
+    "name": "Pure Nickel",
     "tier": 3,
     "type": "Pure",
     "mass": 8.91,
     "volume": 1,
     "outputQuantity": 45,
     "time": 600,
-    "byproducts": {"Oxygen Pure":7.5,"Silicon Pure":7.5},
+    "byproducts": {"Pure Oxygen":7.5,"Pure Silicon":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Garnierite": 65
     }
   },
   {
-    "name": "Silver Pure",
+    "name": "Pure Silver",
     "tier": 3,
     "type": "Pure",
     "mass": 10.49,
     "volume": 1,
     "outputQuantity": 45,
     "time": 600,
-    "byproducts": {"Sulfur Pure":15},
+    "byproducts": {"Pure Sulfur":15},
     "industries": ["Refiner M"],
     "input": {
       "Acanthite": 65
     }
   },
   {
-    "name": "Sulfur Pure",
+    "name": "Pure Sulfur",
     "tier": 3,
     "type": "Pure",
     "mass": 1.82,
     "volume": 1,
     "outputQuantity": 45,
     "time": 600,
-    "byproducts": {"Iron Pure":15},
+    "byproducts": {"Pure Iron":15},
     "industries": ["Refiner M"],
     "input": {
       "Pyrite": 65
     }
   },
   {
-    "name": "Cobalt Pure",
+    "name": "Pure Cobalt",
     "tier": 4,
     "type": "Pure",
     "mass": 8.9,
     "volume": 1,
     "outputQuantity": 45,
     "time": 3120,
-    "byproducts": {"Sulfur Pure":15},
+    "byproducts": {"Pure Sulfur":15},
     "industries": ["Refiner M"],
     "input": {
       "Cobaltite": 65
     }
   },
   {
-    "name": "Fluorine Pure",
+    "name": "Pure Fluorine",
     "tier": 4,
     "type": "Pure",
     "mass": 1.7,
     "volume": 1,
     "outputQuantity": 45,
     "time": 3120,
-    "byproducts": {"Sodium Pure":7.5, "Aluminium Pure":7.5},
+    "byproducts": {"Pure Sodium":7.5, "Pure Aluminium":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Cryolite": 65
     }
   },
   {
-    "name": "Gold Pure",
+    "name": "Pure Gold",
     "tier": 4,
     "type": "Pure",
     "mass": 19.3,
@@ -490,70 +490,70 @@
     }
   },
   {
-    "name": "Scandium Pure",
+    "name": "Pure Scandium",
     "tier": 4,
     "type": "Pure",
     "mass": 2.98,
     "volume": 1,
     "outputQuantity": 45,
     "time": 3120,
-    "byproducts": {"Oxygen Pure":7.5,"Hydrogen Pure":7.5},
+    "byproducts": {"Pure Oxygen":7.5,"Pure Hydrogen":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Kolbeckite": 65
     }
   },
   {
-    "name": "Manganese Pure",
+    "name": "Pure Manganese",
     "tier": 5,
     "type": "Pure",
     "mass": 7.21,
     "volume": 1,
     "outputQuantity": 45,
     "time": 14400,
-    "byproducts": {"Calcium Pure":5,"Silicon Pure":5,"Oxygen Pure":5},
+    "byproducts": {"Pure Calcium":5,"Pure Silicon":5,"Pure Oxygen":5},
     "industries": ["Refiner M"],
     "input": {
       "Rhodonite": 65
     }
   },
   {
-    "name": "Niobium Pure",
+    "name": "Pure Niobium",
     "tier": 5,
     "type": "Pure",
     "mass": 8.57,
     "volume": 1,
     "outputQuantity": 45,
     "time": 14400,
-    "byproducts": {"Iron Pure":5,"Manganese Pure":5,"Oxygen Pure":5},
+    "byproducts": {"Pure Iron":5,"Pure Manganese":5,"Pure Oxygen":5},
     "industries": ["Refiner M"],
     "input": {
       "Columbite": 65
     }
   },
   {
-    "name": "Titanium Pure",
+    "name": "Pure Titanium",
     "tier": 5,
     "type": "Pure",
     "mass": 4.51,
     "volume": 1,
     "outputQuantity": 45,
     "time": 14400,
-    "byproducts": {"Iron Pure":7.5,"Oxygen Pure":7.5},
+    "byproducts": {"Pure Iron":7.5,"Pure Oxygen":7.5},
     "industries": ["Refiner M"],
     "input": {
       "Illmenite": 65
     }
   },
   {
-    "name": "Vanadium Pure",
+    "name": "Pure Vanadium",
     "tier": 5,
     "type": "Pure",
     "mass": 6,
     "volume": 1,
     "outputQuantity": 45,
     "time": 14400,
-    "byproducts": {"Oxygen Pure":15},
+    "byproducts": {"Pure Oxygen":15},
     "industries": ["Refiner M"],
     "input": {
       "Vanadinite": 65
@@ -570,10 +570,10 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-	  "Hydrogen Pure": 300,
-      "Iron Pure": 200,
-      "Sodium Pure": 100,
-      "Sulfur Pure": 50
+	  "Pure Hydrogen": 300,
+      "Pure Iron": 200,
+      "Pure Sodium": 100,
+      "Pure Sulfur": 50
     }
   },
   {
@@ -587,11 +587,11 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-	  "Hydrogen Pure": 300,
-      "Iron Pure": 500,
-      "Sodium Pure": 200,
-      "Sulfur Pure": 100,
-      "Fluorine Pure": 50
+	  "Pure Hydrogen": 300,
+      "Pure Iron": 500,
+      "Pure Sodium": 200,
+      "Pure Sulfur": 100,
+      "Pure Fluorine": 50
     }
   },
   {
@@ -605,12 +605,12 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-	  "Hydrogen Pure": 300,
-      "Iron Pure": 1000,
-      "Sodium Pure": 500,
-      "Sulfur Pure": 200,
-      "Fluorine Pure": 100,
-      "Manganese Pure": 50
+	  "Pure Hydrogen": 300,
+      "Pure Iron": 1000,
+      "Pure Sodium": 500,
+      "Pure Sulfur": 200,
+      "Pure Fluorine": 100,
+      "Pure Manganese": 50
     }
   },
   {
@@ -624,10 +624,10 @@
     "byproducts": {},
     "industries": ["Nanopack","Chemical Industry M"],
     "input": {
-      "Silicon Pure": 20,
-      "Carbon Pure": 20,
-      "Oxygen Pure": 40,
-      "Hydrogen Pure": 20
+      "Pure Silicon": 20,
+      "Pure Carbon": 20,
+      "Pure Oxygen": 40,
+      "Pure Hydrogen": 20
     }
   },
   {
@@ -641,9 +641,9 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Sodium Pure": 40,
-      "Oxygen Pure": 30,
-      "Hydrogen Pure": 30
+      "Pure Sodium": 40,
+      "Pure Oxygen": 30,
+      "Pure Hydrogen": 30
     }
   },
   {
@@ -657,9 +657,9 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Calcium Pure": 40,
-      "Oxygen Pure": 25,
-      "Hydrogen Pure": 35
+      "Pure Calcium": 40,
+      "Pure Oxygen": 25,
+      "Pure Hydrogen": 35
     }
   },
   {
@@ -673,9 +673,9 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Chromium Pure": 40,
-      "Oxygen Pure": 35,
-      "Hydrogen Pure": 25
+      "Pure Chromium": 40,
+      "Pure Oxygen": 35,
+      "Pure Hydrogen": 25
     }
   },
   {
@@ -689,9 +689,9 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Copper Pure": 40,
-      "Oxygen Pure": 30,
-      "Hydrogen Pure": 30
+      "Pure Copper": 40,
+      "Pure Oxygen": 30,
+      "Pure Hydrogen": 30
     }
   },
   {
@@ -705,10 +705,10 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Chromium Pure": 10,
-      "Sodium Pure": 10,
-      "Hydrogen Pure": 60,
-      "Oxygen Pure": 20
+      "Pure Chromium": 10,
+      "Pure Sodium": 10,
+      "Pure Hydrogen": 60,
+      "Pure Oxygen": 20
     }
   },
   {
@@ -722,8 +722,8 @@
     "byproducts": {},
     "industries": ["Nanopack","Smelter M"],
     "input": {
-      "Aluminium Pure": 100,
-      "Iron Pure": 50
+      "Pure Aluminium": 100,
+      "Pure Iron": 50
     }
   },
   {
@@ -737,8 +737,8 @@
     "byproducts": {"Catalyst 3":1},
     "industries": ["Smelter M"],
     "input": {
-      "Lithium Pure": 100,
-      "Aluminium Pure": 50,
+      "Pure Lithium": 100,
+      "Pure Aluminium": 50,
       "Catalyst 3": 1
     }
   },
@@ -753,8 +753,8 @@
     "byproducts": {},
     "industries": ["Smelter M"],
     "input": {
-      "Copper Pure": 100,
-      "Calcium Pure": 50
+      "Pure Copper": 100,
+      "Pure Calcium": 50
     }
   },
   {
@@ -768,8 +768,8 @@
     "byproducts": {"Catalyst 3":1},
     "industries": ["Smelter M"],
     "input": {
-      "Silver Pure": 100,
-      "Copper Pure": 50,
+      "Pure Silver": 100,
+      "Pure Copper": 50,
       "Catalyst 3": 1
     }
   },
@@ -784,8 +784,8 @@
     "byproducts": {},
     "industries": ["Smelter M"],
     "input": {
-      "Copper Pure": 100,
-      "Aluminium Pure": 50
+      "Pure Copper": 100,
+      "Pure Aluminium": 50
     }
   },
   {
@@ -799,9 +799,9 @@
     "byproducts": {"Catalyst 5":1},
     "industries": ["Smelter M"],
     "input": {
-      "Titanium Pure": 100,
-      "Vanadium Pure": 50,
-      "Aluminium Pure": 50,
+      "Pure Titanium": 100,
+      "Pure Vanadium": 50,
+      "Pure Aluminium": 50,
       "Catalyst 5": 1
     }
   },
@@ -816,9 +816,9 @@
     "byproducts": {"Catalyst 3":1},
     "industries": ["Smelter M"],
     "input": {
-      "Nickel Pure": 100,
-      "Chromium Pure": 50,
-      "Iron Pure": 50,
+      "Pure Nickel": 100,
+      "Pure Chromium": 50,
+      "Pure Iron": 50,
       "Catalyst 3": 1
     }
   },
@@ -833,9 +833,9 @@
     "byproducts": {"Catalyst 5":1},
     "industries": ["Smelter M"],
     "input": {
-      "Manganese Pure": 100,
-      "Niobium Pure": 50,
-      "Iron Pure": 50,
+      "Pure Manganese": 100,
+      "Pure Niobium": 50,
+      "Pure Iron": 50,
       "Catalyst 5": 1
     }
   },
@@ -850,9 +850,9 @@
     "byproducts": {"Catalyst 4":1},
     "industries": ["Smelter M"],
     "input": {
-      "Cobalt Pure": 100,
-      "Nickel Pure": 50,
-      "Iron Pure": 50,
+      "Pure Cobalt": 100,
+      "Pure Nickel": 50,
+      "Pure Iron": 50,
       "Catalyst 4": 1
     }
   },
@@ -867,8 +867,8 @@
     "byproducts": {"Catalyst 4":1},
     "industries": ["Smelter M"],
     "input": {
-      "Gold Pure": 100,
-      "Copper Pure": 50,
+      "Pure Gold": 100,
+      "Pure Copper": 50,
       "Catalyst 4": 1
     }
   },
@@ -883,9 +883,9 @@
     "byproducts": {"Catalyst 4":1},
     "industries": ["Smelter M"],
     "input": {
-      "Scandium Pure": 100,
-      "Aluminium Pure": 50,
-      "Lithium Pure": 50,
+      "Pure Scandium": 100,
+      "Pure Aluminium": 50,
+      "Pure Lithium": 50,
       "Catalyst 4": 1
     }
   },
@@ -900,9 +900,9 @@
     "byproducts": {},
     "industries": ["Smelter M"],
     "input": {
-      "Chromium Pure": 100,
-      "Iron Pure": 50,
-      "Carbon Pure": 50
+      "Pure Chromium": 100,
+      "Pure Iron": 50,
+      "Pure Carbon": 50
     }
   },
   {
@@ -916,8 +916,8 @@
     "byproducts": {"Catalyst 5":1},
     "industries": ["Smelter M"],
     "input": {
-      "Niobium Pure": 100,
-      "Titanium Pure": 50,
+      "Pure Niobium": 100,
+      "Pure Titanium": 50,
       "Catalyst 5": 1
     }
   },
@@ -932,9 +932,9 @@
     "byproducts": {},
     "industries": ["Nanopack","Chemical Industry M"],
     "input": {
-      "Carbon Pure": 100,
-      "Oxygen Pure": 50,
-      "Hydrogen Pure": 50
+      "Pure Carbon": 100,
+      "Pure Oxygen": 50,
+      "Pure Hydrogen": 50
     }
   },
   {
@@ -948,9 +948,9 @@
     "byproducts": {},
     "industries": ["Nanopack","Smelter M"],
     "input": {
-      "Silicon Pure": 100,
-      "Aluminium Pure": 50,
-	  "Oxygen Pure": 50
+      "Pure Silicon": 100,
+      "Pure Aluminium": 50,
+	  "Pure Oxygen": 50
     }
   },
   {
@@ -964,9 +964,9 @@
     "byproducts": {},
     "industries": ["Smelter M"],
     "input": {
-      "Calcium Pure": 100,
-      "Carbon Pure": 50,
-      "Oxygen Pure": 50
+      "Pure Calcium": 100,
+      "Pure Carbon": 50,
+      "Pure Oxygen": 50
     }
   },
   {
@@ -980,9 +980,9 @@
     "byproducts": {},
     "industries": ["Smelter M"],
     "input": {
-      "Calcium Pure": 100,
-      "Carbon Pure": 50,
-      "Silicon Pure": 50
+      "Pure Calcium": 100,
+      "Pure Carbon": 50,
+      "Pure Silicon": 50
     }
   },
   {
@@ -997,7 +997,7 @@
     "industries": ["Nanopack","Smelter M"],
     "input": {
       "Polycarbonate Plastic": 50,
-      "Carbon Pure": 50
+      "Pure Carbon": 50
     }
   },
   {
@@ -1011,8 +1011,8 @@
     "byproducts": {},
     "industries": ["Nanopack","Glass Furnace M"],
     "input": {
-      "Silicon Pure": 100,
-      "Oxygen Pure": 50
+      "Pure Silicon": 100,
+      "Pure Oxygen": 50
     }
   },
   {
@@ -1026,10 +1026,10 @@
     "byproducts": {},
     "industries": ["Glass Furnace M"],
     "input": {
-      "Sodium Pure": 100,
-      "Calcium Pure": 50,
-      "Silicon Pure": 50,
-      "Oxygen Pure": 50
+      "Pure Sodium": 100,
+      "Pure Calcium": 50,
+      "Pure Silicon": 50,
+      "Pure Oxygen": 50
     }
   },
   {
@@ -1043,10 +1043,10 @@
     "byproducts": {"Catalyst 3":1},
     "industries": ["Glass Furnace M"],
     "input": {
-      "Silver Pure": 100,
-      "Lithium Pure": 50,
-      "Silicon Pure": 50,
-      "Oxygen Pure": 50,
+      "Pure Silver": 100,
+      "Pure Lithium": 50,
+      "Pure Silicon": 50,
+      "Pure Oxygen": 50,
       "Catalyst 3": 1
     }
   },
@@ -1061,10 +1061,10 @@
     "byproducts": {"Catalyst 4":1},
     "industries": ["Glass Furnace M"],
     "input": {
-      "Gold Pure": 100,
-      "Silicon Pure": 50,
-      "Sodium Pure": 50,
-      "Oxygen Pure": 50,
+      "Pure Gold": 100,
+      "Pure Silicon": 50,
+      "Pure Sodium": 50,
+      "Pure Oxygen": 50,
       "Catalyst 4": 1
     }
   },
@@ -1079,10 +1079,10 @@
     "byproducts": {"Catalyst 5":1},
     "industries": ["Glass Furnace M"],
     "input": {
-      "Manganese Pure": 100,
-      "Calcium Pure": 50,
-      "Silicon Pure": 50,
-      "Oxygen Pure": 50,
+      "Pure Manganese": 100,
+      "Pure Calcium": 50,
+      "Pure Silicon": 50,
+      "Pure Oxygen": 50,
       "Catalyst 5": 1
     }
   },
@@ -1097,8 +1097,8 @@
     "byproducts": {},
     "industries": ["Nanopack","Chemical Industry M"],
     "input": {
-      "Carbon Pure": 100,
-      "Hydrogen Pure": 50
+      "Pure Carbon": 100,
+      "Pure Hydrogen": 50
     }
   },
   {
@@ -1112,9 +1112,9 @@
     "byproducts": {},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Calcium Pure": 100,
-      "Carbon Pure": 50,
-      "Hydrogen Pure": 50
+      "Pure Calcium": 100,
+      "Pure Carbon": 50,
+      "Pure Hydrogen": 50
     }
   },
   {
@@ -1128,9 +1128,9 @@
     "byproducts": {"Catalyst 3":1},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Sulfur Pure": 100,
-      "Carbon Pure": 50,
-      "Hydrogen Pure": 50,
+      "Pure Sulfur": 100,
+      "Pure Carbon": 50,
+      "Pure Hydrogen": 50,
       "Catalyst 3": 1
     }
   },
@@ -1145,9 +1145,9 @@
     "byproducts": {"Catalyst 4":1},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Fluorine Pure": 100,
-      "Carbon Pure": 50,
-      "Hydrogen Pure": 50,
+      "Pure Fluorine": 100,
+      "Pure Carbon": 50,
+      "Pure Hydrogen": 50,
       "Catalyst 4": 1
     }
   },
@@ -1162,10 +1162,10 @@
     "byproducts": {"Catalyst 5":1},
     "industries": ["Chemical Industry M"],
     "input": {
-      "Vanadium Pure": 100,
-      "Sulfur Pure": 50,
-      "Carbon Pure": 50,
-      "Hydrogen Pure": 50,
+      "Pure Vanadium": 100,
+      "Pure Sulfur": 50,
+      "Pure Carbon": 50,
+      "Pure Hydrogen": 50,
       "Catalyst 5": 1
     }
   },
@@ -1180,8 +1180,8 @@
     "byproducts": {},
     "industries": ["Nanopack","Smelter M"],
     "input": {
-      "Aluminium Pure": 100,
-      "Silicon Pure": 50
+      "Pure Aluminium": 100,
+      "Pure Silicon": 50
     }
   },
   {
@@ -1195,8 +1195,8 @@
     "byproducts": {},
     "industries": ["Nanopack","Smelter M"],
     "input": {
-      "Iron Pure": 100,
-      "Carbon Pure": 50
+      "Pure Iron": 100,
+      "Pure Carbon": 50
     }
   },
   {
@@ -1210,8 +1210,8 @@
     "byproducts": {},
     "industries": ["Nanopack","Smelter M"],
     "input": {
-      "Carbon Pure": 100,
-      "Oxygen Pure": 50
+      "Pure Carbon": 100,
+      "Pure Oxygen": 50
     }
   },
   {
@@ -10069,7 +10069,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Recycler M"],
     "input": {
-      "Aluminium Pure": 50
+      "Pure Aluminium": 50
     }
   },
   {
@@ -10083,7 +10083,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Recycler M"],
     "input": {
-      "Carbon Pure": 50
+      "Pure Carbon": 50
     }
   },
   {
@@ -10097,7 +10097,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Recycler M"],
     "input": {
-      "Silicon Pure": 50
+      "Pure Silicon": 50
     }
   },
   {
@@ -10111,7 +10111,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Recycler M"],
     "input": {
-      "Iron Pure": 50
+      "Pure Iron": 50
     }
   },
   {
@@ -10125,7 +10125,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Calcium Pure": 50
+      "Pure Calcium": 50
     }
   },
   {
@@ -10139,7 +10139,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Chromium Pure": 50
+      "Pure Chromium": 50
     }
   },
   {
@@ -10153,7 +10153,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Copper Pure": 50
+      "Pure Copper": 50
     }
   },
   {
@@ -10167,7 +10167,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Sodium Pure": 50
+      "Pure Sodium": 50
     }
   },
   {
@@ -10181,7 +10181,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Lithium Pure": 50
+      "Pure Lithium": 50
     }
   },
   {
@@ -10195,7 +10195,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Nickel Pure": 50
+      "Pure Nickel": 50
     }
   },
   {
@@ -10209,7 +10209,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Silver Pure": 50
+      "Pure Silver": 50
     }
   },
   {
@@ -10223,7 +10223,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Sulfur Pure": 50
+      "Pure Sulfur": 50
     }
   },
   {
@@ -10237,7 +10237,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Cobalt Pure": 50
+      "Pure Cobalt": 50
     }
   },
   {
@@ -10251,7 +10251,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Fluorine Pure": 50
+      "Pure Fluorine": 50
     }
   },
   {
@@ -10265,7 +10265,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Gold Pure": 50
+      "Pure Gold": 50
     }
   },
   {
@@ -10279,7 +10279,7 @@
     "byproducts": {},
     "industries": ["Recycler M"],
     "input": {
-      "Scandium Pure": 50
+      "Pure Scandium": 50
     }
   },
   {
@@ -10293,7 +10293,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Honeycomb Refinery M"],
     "input": {
-      "Iron Pure": 100
+      "Pure Iron": 100
     }
   },
   {
@@ -10307,7 +10307,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Honeycomb Refinery M"],
     "input": {
-      "Aluminium Pure": 100
+      "Pure Aluminium": 100
     }
   },
   {
@@ -10321,7 +10321,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Honeycomb Refinery M"],
     "input": {
-      "Iron Pure": 100
+      "Pure Iron": 100
     }
   },
   {
@@ -10335,7 +10335,7 @@
     "byproducts": {},
     "industries": ["Nanopack","Honeycomb Refinery M"],
     "input": {
-      "Silicon Pure": 100
+      "Pure Silicon": 100
     }
   },
   {
@@ -10349,7 +10349,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Copper Pure": 100
+      "Pure Copper": 100
     }
   },
   {
@@ -10363,7 +10363,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Chromium Pure": 100
+      "Pure Chromium": 100
     }
   },
   {
@@ -10377,7 +10377,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Calcium Pure": 100
+      "Pure Calcium": 100
     }
   },
   {
@@ -10391,7 +10391,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Sodium Pure": 100
+      "Pure Sodium": 100
     }
   },
   {
@@ -10405,7 +10405,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Lithium Pure": 100
+      "Pure Lithium": 100
     }
   },
   {
@@ -10419,7 +10419,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Nickel Pure": 100
+      "Pure Nickel": 100
     }
   },
   {
@@ -10433,7 +10433,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Silver Pure": 100
+      "Pure Silver": 100
     }
   },
   {
@@ -10447,7 +10447,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Sulfur Pure": 100
+      "Pure Sulfur": 100
     }
   },
   {
@@ -10461,7 +10461,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Gold Pure": 100
+      "Pure Gold": 100
     }
   },
   {
@@ -10475,7 +10475,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Cobalt Pure": 100
+      "Pure Cobalt": 100
     }
   },
   {
@@ -10489,7 +10489,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Fluorine Pure": 100
+      "Pure Fluorine": 100
     }
   },
   {
@@ -10503,7 +10503,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Scandium Pure": 100
+      "Pure Scandium": 100
     }
   },
   {
@@ -10517,7 +10517,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Manganese Pure": 100
+      "Pure Manganese": 100
     }
   },
   {
@@ -10531,7 +10531,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Niobium Pure": 100
+      "Pure Niobium": 100
     }
   },
   {
@@ -10545,7 +10545,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Titanium Pure": 100
+      "Pure Titanium": 100
     }
   },
   {
@@ -10559,7 +10559,7 @@
     "byproducts": {},
     "industries": ["Honeycomb Refinery M"],
     "input": {
-      "Vanadium Pure": 100
+      "Pure Vanadium": 100
     }
   },
   {
