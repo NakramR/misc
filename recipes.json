@@ -14452,5 +14452,22 @@
       "Basic Screen S": 1,
       "Basic Standard Frame S": 1
     }
+  },
+  {
+    "name": "Transponder",
+    "tier": 3,
+    "type": "Transponder",
+    "mass": 340.0,
+    "volume": 97.0,
+    "outputQuantity": 1,
+    "time": 4320,
+    "byproducts": {},
+    "industries": ["Assembly Line S"],
+    "input": {
+      "Uncommon Screw": 6,
+      "Advanced Processor": 5,
+      "Advanced Antenna S": 1,
+      "Advanced Standard Frame S": 1
+    }
   }
 ]
