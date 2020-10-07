@@ -3171,7 +3171,7 @@
     }
   },
   {
-    "name": "Basic Core System XS",
+    "name": "Basic Core Unit System XS",
     "tier": 1,
     "type": "Functional Part",
     "mass": 4.43,
@@ -3186,7 +3186,7 @@
     }
   },
   {
-    "name": "Basic Core System S",
+    "name": "Basic Core Unit System S",
     "tier": 1,
     "type": "Functional Part",
     "mass": 23.57,
@@ -3201,7 +3201,7 @@
     }
   },
   {
-    "name": "Uncommon Core System S",
+    "name": "Uncommon Core Unit System S",
     "tier": 2,
     "type": "Functional Part",
     "mass": 28.08,
@@ -3219,7 +3219,7 @@
     }
   },
   {
-    "name": "Uncommon Core System M",
+    "name": "Uncommon Core Unit System M",
     "tier": 2,
     "type": "Functional Part",
     "mass": 28.08,
@@ -3237,7 +3237,7 @@
     }
   },
   {
-    "name": "Uncommon Core System L",
+    "name": "Uncommon Core Unit System L",
     "tier": 2,
     "type": "Functional Part",
     "mass": 737.1,
@@ -3255,7 +3255,7 @@
     }
   },
   {
-    "name": "Advanced Core System M",
+    "name": "Advanced Core Unit System M",
     "tier": 3,
     "type": "Functional Part",
     "mass": 139.61,
@@ -3275,7 +3275,7 @@
     }
   },
   {
-    "name": "Rare Core System L",
+    "name": "Rare Core Unit System L",
     "tier": 4,
     "type": "Functional Part",
     "mass": 783.65,
@@ -3294,7 +3294,7 @@
     }
   },
   {
-    "name": "Exotic Core System S",
+    "name": "Exotic Core Unit System S",
     "tier": 5,
     "type": "Functional Part",
     "mass": 28.62,
@@ -3452,7 +3452,7 @@
     }
   },
   {
-    "name": "Basic Gas Cylinder XS",
+    "name": "Basic Gaz Cylinder XS",
     "tier": 1,
     "type": "Functional Part",
     "mass": 15.68,
@@ -3467,7 +3467,7 @@
     }
   },
   {
-    "name": "Basic Gas Cylinder S",
+    "name": "Basic Gaz Cylinder S",
     "tier": 1,
     "type": "Functional Part",
     "mass": 81.38,
@@ -3482,7 +3482,7 @@
     }
   },
   {
-    "name": "Basic Gas Cylinder M",
+    "name": "Basic Gaz Cylinder M",
     "tier": 1,
     "type": "Functional Part",
     "mass": 427.88,
@@ -5185,7 +5185,7 @@
     "input": {
       "Basic Component": 1,
       "Basic Power System": 1,
-      "Basic Core System XS": 1,
+      "Basic Core Unit System XS": 1,
       "Basic Standard Frame XS": 1
     }
   },
@@ -5203,7 +5203,7 @@
       "Basic Component": 3,
       "Uncommon Component": 3,
       "Uncommon Power System": 5,
-      "Uncommon Core System S": 1,
+      "Uncommon Core Unit System S": 1,
       "Uncommon Standard Frame S": 1
     }
   },
@@ -5220,7 +5220,7 @@
     "input": {
       "Uncommon Component": 36,
       "Advanced Power System": 25,
-      "Advanced Core System M": 1,
+      "Advanced Core Unit System M": 1,
       "Advanced Standard Frame M": 1
     }
   },
@@ -5238,7 +5238,7 @@
       "Uncommon Component": 108,
       "Advanced Component": 108,
       "Rare Power System": 125,
-      "Rare Core System L": 1,
+      "Rare Core Unit System L": 1,
       "Rare Standard Frame L": 1
     }
   },
@@ -5255,7 +5255,7 @@
     "input": {
       "Basic Component": 1,
       "Basic Power System": 1,
-      "Basic Core System XS": 1,
+      "Basic Core Unit System XS": 1,
       "Basic Standard Frame XS": 1
     }
   },
@@ -5272,7 +5272,7 @@
     "input": {
       "Basic Component": 6,
       "Basic Power System": 5,
-      "Basic Core System S": 1,
+      "Basic Core Unit System S": 1,
       "Basic Standard Frame S": 1
     }
   },
@@ -5290,7 +5290,7 @@
       "Basic Component": 18,
       "Uncommon Component": 18,
       "Uncommon Power System": 25,
-      "Uncommon Core System M": 1,
+      "Uncommon Core Unit System M": 1,
       "Uncommon Standard Frame M": 1
     }
   },
@@ -5308,7 +5308,7 @@
       "Basic Component": 108,
       "Uncommon Component": 108,
       "Uncommon Power System": 125,
-      "Uncommon Core System L": 1,
+      "Uncommon Core Unit System L": 1,
       "Uncommon Standard Frame L": 1
     }
   },
@@ -5325,7 +5325,7 @@
     "input": {
       "Basic Component": 1,
       "Basic Power System": 1,
-      "Basic Core System XS": 1,
+      "Basic Core Unit System XS": 1,
       "Basic Standard Frame XS": 1
     }
   },
@@ -5343,7 +5343,7 @@
       "Basic Component": 3,
       "Uncommon Component": 3,
       "Uncommon Power System": 5,
-      "Uncommon Core System S": 1,
+      "Uncommon Core Unit System S": 1,
       "Uncommon Standard Frame S": 1
     }
   },
@@ -5360,7 +5360,7 @@
     "input": {
       "Uncommon Component": 36,
       "Advanced Power System": 25,
-      "Advanced Core System M": 1,
+      "Advanced Core Unit System M": 1,
       "Advanced Anti-Gravity Core": 16,
       "Advanced Standard Frame M": 1
     }
@@ -5379,7 +5379,7 @@
       "Uncommon Component": 108,
       "Advanced Component": 108,
       "Rare Power System": 125,
-      "Rare Core System L": 1,
+      "Rare Core Unit System L": 1,
       "Rare Anti-Gravity Core": 64,
       "Rare Standard Frame L": 1
     }
@@ -6514,7 +6514,7 @@
     "input": {
       "Basic Screw": 1,
       "Basic Injector": 1,
-      "Basic Gas Cylinder XS": 1,
+      "Basic Gaz Cylinder XS": 1,
       "Basic Reinforced Frame XS": 1
     }
   },
@@ -6531,7 +6531,7 @@
     "input": {
       "Basic Screw": 6,
       "Basic Injector": 5,
-      "Basic Gas Cylinder S": 1,
+      "Basic Gaz Cylinder S": 1,
       "Basic Reinforced Frame S": 1
     }
   },
@@ -6548,7 +6548,7 @@
     "input": {
       "Basic Screw": 36,
       "Basic Injector": 25,
-      "Basic Gas Cylinder M": 1,
+      "Basic Gaz Cylinder M": 1,
       "Basic Reinforced Frame M": 1
     }
   },
@@ -6565,7 +6565,7 @@
     "input": {
       "Basic Screw": 36,
       "Basic Injector": 25,
-      "Basic Gas Cylinder M": 1,
+      "Basic Gaz Cylinder M": 1,
       "Basic Reinforced Frame M": 1
     }
   },
@@ -6597,7 +6597,7 @@
     "input": {
       "Basic Pipe": 1,
       "Basic Injector": 1,
-      "Basic Gas Cylinder XS": 1,
+      "Basic Gaz Cylinder XS": 1,
       "Basic Standard Frame XS": 1
     }
   },
@@ -6614,7 +6614,7 @@
     "input": {
       "Basic Pipe": 6,
       "Basic Injector": 5,
-      "Basic Gas Cylinder S": 1,
+      "Basic Gaz Cylinder S": 1,
       "Basic Standard Frame S": 1
     }
   },
@@ -6631,7 +6631,7 @@
     "input": {
       "Basic Pipe": 36,
       "Basic Injector": 25,
-      "Basic Gas Cylinder M": 1,
+      "Basic Gaz Cylinder M": 1,
       "Basic Standard Frame M": 1
     }
   },
@@ -9649,7 +9649,7 @@
     "input": {
       "Advanced Fixation": 6,
       "Exotic Magnet": 5,
-      "Exotic Core System S": 1,
+      "Exotic Core Unit System S": 1,
       "Exotic Anti-Gravity Core": 4,
       "Exotic Casing S": 1
     }
