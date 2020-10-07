@@ -9030,23 +9030,6 @@
     }
   },
   {
-    "name": "\"Eye Doll's Workshop\" - Artist Unknown",
-    "tier": 4,
-    "type": "Furniture",
-    "mass": 5.54,
-    "volume": 5,
-    "outputQuantity": 1,
-    "time": 2040,
-    "byproducts": {},
-    "industries": ["Assembly Line XS"],
-    "input": {
-      "Fluoropolymer": 1,
-      "Uncommon Fixation": 1,
-      "Advanced Fixation": 1,
-      "Rare Casing XS":1
-    }
-  },
-  {
     "name": "Wooden Armchair",
     "tier": 1,
     "type": "Furniture",
